@@ -18,8 +18,8 @@ jobs:
 
       - name: Set up git
         run: |
-          git config user.name "Your Name"
-          git config user.email "your-email@example.com"
+          git config user.name "lugw27"
+          git config user.email "lugw27@live.com"
       
       - name: Add upstream
         run: git remote add upstream https://github.com/gaotianliuyun/gao.git
