@@ -11,5 +11,6 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync
         with:
+          token: ${{ secrets.MYSECRET }}
           base: master
           head: master
