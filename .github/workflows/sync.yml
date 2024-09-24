@@ -12,5 +12,6 @@ jobs:
       - uses: tgymnich/fork-sync@v2.0
         with:
           token: ${{ secrets.MYSECRET }}
+          owner: gaotianliuyun
           base: master
           head: master
